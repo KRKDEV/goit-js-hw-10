@@ -41,9 +41,7 @@ export const countryInfoDetails = country => {
   <div class="country-info__details">
     <p><span class="bold">Capital:</span> ${country.capital}</p>
     <p><span class="bold">Population:</span> ${country.population}</p>
-    <p><span class="bold">Languages:</span> ${Object.values(
-      country.languages
-    )}</>
+    <p><span class="bold">Languages:</span> ${Object.values(country.languages)}
   </div>
   `;
 };

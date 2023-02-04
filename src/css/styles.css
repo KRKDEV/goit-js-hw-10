@@ -47,24 +47,33 @@ label {
   display: flex;
   /* border: 1px solid green; */
 }
+
 .country-list__item p {
   font-weight: 600;
 }
+
 .country-list__item img {
   width: 90px;
   height: auto;
   margin-right: 10px;
 }
+
 .country-info {
   display: flex;
   flex-direction: column;
+  width: 200px;
+}
+.country-info__name {
+  display: flex;
+  flex-direction: row;
 }
 
 .country-info__name img {
   width: 90px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 10px;
 }
+
 .country-list__item p {
   font-size: 16px;
 }
