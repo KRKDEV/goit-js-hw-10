@@ -7,9 +7,10 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #c0c0c0;
   color: #212121;
   line-height: 1.5;
+  height: auto;
 }
 
 #search-box {
@@ -17,4 +18,57 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+}
+.country-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /*border: 2px solid red; */
+}
+
+.country-list__item {
+  max-width: 500px;
+  max-height: 100px;
+  overflow: hidden;
+  display: flex;
+  /* border: 1px solid green; */
+}
+.country-list__item p {
+  font-weight: 600;
+}
+.country-list__item img {
+  width: 90px;
+  height: auto;
+  margin-right: 10px;
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-info__name img {
+  width: 90px;
+  height: auto;
+  margin-right: 20px;
+}
+.country-list__item p {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: 700;
 }
